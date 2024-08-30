@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto Slab' , serif;
+    margin: 0;
+    padding: 0;
+}
+.Ext_div{
+    width: 1280px;
+    height:auto;
+    background-color: #fff;
+    margin: 20px auto;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
+    justify-content: center;
+}
+.header_div{
+    background-image: url(header.jpg);
+    background-size: cover;
+    width: 1280px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.body_div{
+    width:1280px;
+    display: flex;
+    justify-content: center;
+}
+.body_content{
+    width: 855px;
+    display: flex;
+    justify-content: center;
+    line-height: 32px;
+}
+.head_text{
+    color: white;
+    font-size: 36px;
+    max-width: 780px;
+    text-align: center;
+}
+
+.author{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin-bottom: 60px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.italic{
+    font-style: italic;
+}
+.author_img{
+    border-radius: 50%;
+    border-style: solid;
+    border: 1px;
+    border-color: #747474;
+    margin-top: -50px;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+.heading{
+    font-size: 36px;
+    font-weight: bold;
+}
+.soda_image{
+    width:855px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.boba_image{
+    width:855px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.coho_image{
+    width:855px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+.nexus_image{
+    width:855px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+h4{
+    margin-top: 0px;
+}
+h1{
+    margin-bottom: 0px;
+}
+
+.soda .boba .coho .nexus{
+    padding-left: 40px;
+}
